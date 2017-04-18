@@ -9,7 +9,7 @@ class LoadingDots extends React.Component {
 
     componentDidMount() {
         this.interval = setInterval(() => {
-            this.setState({
+            this.setState({ // es-lint-a se cupi, but its okay
                 frame: this.state.frame + 1
             });    
         }, this.props.interval);

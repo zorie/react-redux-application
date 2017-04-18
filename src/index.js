@@ -15,6 +15,8 @@ import './styles/styles.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import {loadCourses} from './actions/courseActions.js';
 import {loadAuthors} from './actions/authorActions';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/toastr/build/toastr.min.css';
 
 // when have a serverside logic - we will pass a parameter
 const store = configureStore();
